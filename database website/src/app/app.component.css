@@ -1,0 +1,17 @@
+*{margin: 0; padding: 0; box-sizing: border-box}
+
+.col {
+  height: 100px;
+}
+.col {
+    float: left;
+}
+.row {
+    width: 100%;
+}
+.col.half {
+    width: 50%;
+}
+.col.third {
+    width: 33.33%;
+}

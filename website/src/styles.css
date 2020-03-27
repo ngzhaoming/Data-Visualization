@@ -1,8 +1,16 @@
 /* You can add global styles to this file, and also import other style files */
-.card {
+
+/* Category list css styling */
+.card-cat {
     margin-bottom: 50px;
 }
 
 .btn-cat {
     margin-right: 10px;
+    margin-bottom: 5px;
+}
+
+/* Individual page css styling */
+.accordion-page {
+    margin-top: 10px;
 }

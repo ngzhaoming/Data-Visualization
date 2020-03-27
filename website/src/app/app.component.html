@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!--jquery added-->
+    <script src="https://code.jquery.com/jquery-2.1.3.js"></script>
+    <script src="js/bootstrap.js"></script>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <title>Diabolical Database</title>
+  </head>
+
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <!--TODO: Include the routing of the navbar to the different pages-->
+    <a class="navbar-brand" href="/">
+      <img src="../assets/d.png" width="35" height="35" alt="">
+      Database
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+      <ul class="navbar-nav">
+        <li class="nav-item active">
+          <a class="nav-link" href="/">Home <span class="sr-only">(current)</span></a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="/dataset">Datasets</a>
+        </li>
+
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Categories
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+            <!--Categories in one page just link to different parts-->
+            <a class="dropdown-item" href="/categories">All Categories</a>
+            <a class="dropdown-item" href="#">Anime</a>
+            <a class="dropdown-item" href="#">Economy</a>
+            <a class="dropdown-item" href="#">Memes</a>
+            <a class="dropdown-item" href="#">Population</a>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </nav>
+</html>
+
+<router-outlet></router-outlet>
+

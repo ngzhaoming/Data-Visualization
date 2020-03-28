@@ -5,6 +5,7 @@ import { HomePageComponent } from './home-page/home-page.component';
 import { DatasetListComponent } from './dataset-list/dataset-list.component';
 import { EnvironmentListComponent } from './environment-list/environment-list.component';
 import { EducationListComponent } from './education-list/education-list.component';
+import { EconomyListComponent } from './economy-list/economy-list.component';
 
 
 const routes: Routes = [
@@ -13,6 +14,7 @@ const routes: Routes = [
   { path: 'dataset', component: DatasetListComponent},
   { path: 'environment', component: EnvironmentListComponent},
   { path: 'education', component: EducationListComponent},
+  { path: 'economy', component: EconomyListComponent},
 ];
 
 @NgModule({
@@ -26,4 +28,5 @@ export const routingComponents = [
   DatasetListComponent, 
   EnvironmentListComponent,
   EducationListComponent,
+  EconomyListComponent,
 ]

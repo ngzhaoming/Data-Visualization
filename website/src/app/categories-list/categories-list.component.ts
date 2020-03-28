@@ -22,7 +22,7 @@ import { Component, OnInit } from '@angular/core';
         <div class="card-cat card" id="anime">
           <h5 class="card-header">Anime 🎎</h5>
           <div class="card-body">
-            <h5 class="card-title">Special title treatment</h5>
+            <h5 class="card-title">Discover the most anticipated and sought after anime!</h5>
             <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
           </div>
         </div>
@@ -30,8 +30,20 @@ import { Component, OnInit } from '@angular/core';
         <div class="card-cat card" id="economy">
           <h5 class="card-header">Economy 💰</h5>
           <div class="card-body">
-            <h5 class="card-title">Curious about this?</h5>
-            <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+            <h5 class="card-title">Curious about the economic progression of each country?</h5>
+            <p class="card-text">
+              A country's growth and development is largely reliant on their strong work force. A good work force 
+              is able to use resources more effectively and in turn leads to better progression in the country's economy.
+              This resulted in the classification of countries: less developed, developing and developed countries. 
+              Nonetheless, it is worthy to note that there are other factors which can affect the economy of a 
+              country. This includes, war, deregulation in the financial industry, epidemic/pandemic, etc.
+            </p>
+            <p>
+              Wonder the reason why some countries are able to perform better than other countries?
+              Check out the education section in the database to learn about the association between 
+              education and labour force. Having a strong labour force can in turn lead to better 
+              economic growth to the country.
+            </p>
           </div>
         </div>
 
@@ -40,10 +52,17 @@ import { Component, OnInit } from '@angular/core';
           <div class="card-body">
             <h5 class="card-title">Check out how the education system differs for each countries</h5>
             <p class="card-text">
-
+              There are three different categories to classify countries, less developed countries, developing
+              countries and developed countries. The most noticable difference between countries from each 
+              category is their education system, labour force and lifestyle of their population.
             </p>
             <p>
-
+              As we all know, there is a positive association between adult literacy rate and the number
+              of working adults in the workforce. Hence, developed countries with their good education 
+              systems are able to provide quality education to their people. This in turn leads to a stronger
+              workforce which can help to strengthen their economy. Curious about how the labour force can 
+              help improve a country's economy? Do take time to review the topics presented in the Economy
+              section to learn about each country's GDP.
             </p>
           </div>
         </div>
@@ -71,8 +90,12 @@ import { Component, OnInit } from '@angular/core';
         <h5 class="card-header">Games 🕹️</h5>
         <div class="card-body">
           <h5 class="card-title">Recommend me a good game to play!</h5>
-          <p class="card-text">Steam-Games</p>
-          <p class="card-text">Twitch-Games</p>
+          <p class="card-text">
+            Games, everyone loves games! Mobile and computer games are filled with mystery and entertainment. 
+          </p>
+          <p>
+            Come find out more!
+          </p>
         </div>
       </div>
 
@@ -85,7 +108,7 @@ import { Component, OnInit } from '@angular/core';
       </div>
 
       <div class="card-cat card" id="science">
-        <h5 class="card-header">Media 📱</h5>
+        <h5 class="card-header">Sci and Tech 📱</h5>
         <div class="card-body">
           <h5 class="card-title">Special title treatment</h5>
           <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>

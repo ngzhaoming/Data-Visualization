@@ -13,8 +13,7 @@ import { Component, OnInit } from '@angular/core';
         <a class="btn btn-cat btn-dark btn-md" href="/categories#economy" role="button">Economy 💰</a>
         <a class="btn btn-cat btn-dark btn-md" href="/categories#education" role="button">Education 📚</a>
         <a class="btn btn-cat btn-dark btn-md" href="/categories#environment" role="button">Environment 🌳</a>
-        <a class="btn btn-cat btn-dark btn-md" href="/categories#games" role="button">Games 🕹️</a>
-        <a class="btn btn-cat btn-dark btn-md" href="/categories#memes" role="button">Memes 🐸</a>
+        <a class="btn btn-cat btn-dark btn-md" href="/categories#games" role="button">Fun and Games 🕹️</a> 
         <a class="btn btn-cat btn-dark btn-md" href="/categories#science" role="button">Sci and Tech 📱</a>
       </div>
 
@@ -23,12 +22,25 @@ import { Component, OnInit } from '@angular/core';
           <h5 class="card-header">Anime 🎎</h5>
           <div class="card-body">
             <h5 class="card-title">Discover the most anticipated and sought after anime!</h5>
-            <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+            <p class="card-text">
+              Anime as defined on the Internet is a hand-drawn and computer animation originating from
+              or associated with Japan. The word anime is the Japanese term for animation, which means all forms 
+              of animated media. These animes usually consists of different variations of genres each with a unique 
+              storyline which keeps viewers captivated. Anime graphics has evolved over the times with improved graphics
+              and technology to design and create better quality art. Today it has been appreciated by many people both 
+              young and old alike.
+            </p>
+            <p>
+              Stuck at home feeling bored and not sure what to do? Well find out what is the best anime based on the 
+              different genre which suits your taste! We will show you the best sought after anime for each category which will
+              satisfy your binge-watching cravings! What are you waiting for? Come and check out all these latest trends about 
+              anime today.
+            </p>
           </div>
         </div>
 
         <div class="card-cat card" id="economy">
-          <h5 class="card-header">Economy 💰</h5>
+        <a href="/economy"><h5 class="card-header">Economy 💰</h5></a>
           <div class="card-body">
             <h5 class="card-title">Curious about the economic progression of each country?</h5>
             <p class="card-text">
@@ -87,31 +99,39 @@ import { Component, OnInit } from '@angular/core';
       </div>
 
       <div class="card-cat card" id="games">
-        <h5 class="card-header">Games 🕹️</h5>
+        <h5 class="card-header">Fun and Games 🕹️</h5>
         <div class="card-body">
           <h5 class="card-title">Recommend me a good game to play!</h5>
           <p class="card-text">
-            Games, everyone loves games! Mobile and computer games are filled with mystery and entertainment. 
+            Games, everyone loves games! Mobile and computer games are filled with mystery and entertainment. Being stuck at home with nothing to 
+            do? Well, just grab on to a gaming console and start playing some games to free up your boredom. However, with the ever increasing number
+            of games that are made available on the Internet, you might be wondering what are the top games to play? What are some games which 
+            is worth your time playing for?  
           </p>
           <p>
-            Come find out more!
+            We will also throw in a 2-in-1 for this category! Being a fun and games topic, check out what are the coolest memes in town! Also, 
+            come find out more about the most frequently used emoji since the birth of emoji into our keyboards. Excited? Come check out this category
+            to learn more about the memes, games and emojis that you encounter in your daily lives.
           </p>
-        </div>
-      </div>
-
-      <div class="card-cat card" id="memes">
-        <h5 class="card-header">Memes 🐸</h5>
-        <div class="card-body">
-          <h5 class="card-title">Guarenteed to fill you with sweet sugary goodness</h5>
-          <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
         </div>
       </div>
 
       <div class="card-cat card" id="science">
         <h5 class="card-header">Sci and Tech 📱</h5>
         <div class="card-body">
-          <h5 class="card-title">Special title treatment</h5>
-          <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+          <h5 class="card-title">Everything we do is for SCIENCE!</h5>
+          <p class="card-text">
+            You might be wondering what is the main driving force for progress in today's world? Yes, the rapid advancement of Science and 
+            Technology has allowed mankind to make unprecedented progress and advancement. Over the years, countries have been pouring in resources for 
+            research and development in an attempt ot make a breakthrough. But as we all know, the progress of a country is effectively limited 
+            to the amount of resources and knowledge that it can expend on. Hence, this resulted in various degree of advancement in various countries.
+          </p>
+          <p>
+            Click on this category to find out more about how each country compete with each other based on technological advancement. 
+            Learn why some countries are more well off than others. Besides that, learn more about the giant technological companies and their customer-base.
+            How many people are choosing Apple iphone over Samsung Android phones? What about Windows, MAC or Linux systems? All the latest trends with regards 
+            to technology can be found here!
+          </p>
         </div>
       </div>
 

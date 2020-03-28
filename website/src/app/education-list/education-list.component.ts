@@ -24,6 +24,21 @@ import { Component, OnInit } from '@angular/core';
           </div>
         </div>
 
+        <div class="card">
+          <div class="card-header" id="headingTwo">
+            <h2 class="mb-0">
+              <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                Pupil-Teacher Ratio
+              </button>
+            </h2>
+          </div>
+          <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+            <div class="card-body">
+              <iframe src='https://public.flourish.studio/visualisation/1708800/embed' frameborder='0' scrolling='no' style='width:100%;height:600px;'></iframe>
+            </div>
+          </div>
+        </div>
+
       </div>
     </div>
   `,

@@ -10,8 +10,6 @@ import { Component, OnInit } from '@angular/core';
           <p class="lead database-title">Contains all the datasets which are obtained and adapted from</p>
         </div>
       </div>
-
-      
     </div>
   `,
   styles: []

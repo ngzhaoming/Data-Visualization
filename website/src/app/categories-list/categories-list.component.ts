@@ -19,7 +19,7 @@ import { Component, OnInit } from '@angular/core';
 
       
         <div class="card-cat card" id="anime">
-          <h5 class="card-header">Anime 🎎</h5>
+          <a href="/anime"><h5 class="card-header">Anime 🎎</h5></a>
           <div class="card-body">
             <h5 class="card-title">Discover the most anticipated and sought after anime!</h5>
             <p class="card-text">
@@ -99,7 +99,7 @@ import { Component, OnInit } from '@angular/core';
       </div>
 
       <div class="card-cat card" id="games">
-        <h5 class="card-header">Fun and Games 🕹️</h5>
+        <a href="/games"><h5 class="card-header">Fun and Games 🕹️</h5></a>
         <div class="card-body">
           <h5 class="card-title">Recommend me a good game to play!</h5>
           <p class="card-text">
@@ -117,7 +117,7 @@ import { Component, OnInit } from '@angular/core';
       </div>
 
       <div class="card-cat card" id="science">
-        <h5 class="card-header">Sci and Tech 📱</h5>
+        <a href="/science"><h5 class="card-header">Sci and Tech 📱</h5></a>
         <div class="card-body">
           <h5 class="card-title">Everything we do is for SCIENCE!</h5>
           <p class="card-text">

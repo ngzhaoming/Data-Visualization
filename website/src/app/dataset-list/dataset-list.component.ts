@@ -17,7 +17,13 @@ import { Component, OnInit } from '@angular/core';
       </div>
       <div class="card-body">
         <h5 class="card-title">Click on the link to be directed to the various datasets</h5>
-        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+        <p class="card-text">World Bank</p>
+        <p class="card-text">Google trends</p>
+        <p class="card-text">My Anime List</p>
+        <p class="card-text">Anime Stats</p>
+        <p class="card-text">Emojipedia</p>
+        <p class="card-text">Top steam games</p>
+        <p class="card-text">Top twitch games</p>
       </div>
     </div>
     </div>
